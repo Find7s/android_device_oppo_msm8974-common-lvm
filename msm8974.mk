@@ -21,7 +21,7 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_PACKAGES += \
     AntHalService \
     com.dsi.ant.antradio_library \
-    libantradio
+    libantradio 
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -45,7 +45,8 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libqcomvoiceprocessingdescriptors \
-    tinymix
+    tinymix \
+    static_busybox 
 
 # Browser
 PRODUCT_PACKAGES += \
